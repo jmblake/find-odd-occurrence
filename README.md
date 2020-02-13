@@ -1,1 +1,1 @@
-# find-odd-occurrence
+# odd-occurrence

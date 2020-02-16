@@ -26,7 +26,37 @@ def odd_occurrence_xor(arr):
     """
     return functools.reduce(lambda x,y: x^y, arr)
 
+  
+def odd_occurrence_parity_set(arr):
+    """
+    
+    A similar implementation to the XOR idea above, but more naive. 
+    As we iterate over the passed list, a working set keeps track of
+    the numbers that have occurred an odd number of times.
+    At the end, the set will only contain one number.
+    Though the worst-case time complexity is the same as the hashmap
+    method implemented below, this will probably be significantly
+    faster as dictionaries have much longer lookup times than sets.
+    Space complexity: $O(n)$; Time complexity: $O(n)$.
 
+    Parameters
+    ----------
+    arr : integer
+
+    Returns
+    -------
+    integer
+    
+    """
+    seen_odd_times = set()
+    for num in arr:
+        if num in seen_odd_times:
+        seen_odd_times.remove(num)
+    else: 
+        seen_odd_times.add(num)
+    return list(seen_odd_times)[0]
+   
+   
 def odd_occurence_hashmap(arr):
     """
     

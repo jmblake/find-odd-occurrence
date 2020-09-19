@@ -51,9 +51,9 @@ def odd_occurrence_parity_set(arr):
     seen_odd_times = set()
     for num in arr:
         if num in seen_odd_times:
-        seen_odd_times.remove(num)
-    else: 
-        seen_odd_times.add(num)
+            seen_odd_times.remove(num)
+        else: 
+            seen_odd_times.add(num)
     return list(seen_odd_times)[0]
    
    

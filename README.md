@@ -1,5 +1,6 @@
 # odd-occurrence
 This was a technical test I completed in early February 2020.
+The problem statement appears at the top of the file.
 
 ## Dependencies
 Only python 3.6 is required, and usually comes with most Linux distributions; if not, you can install dependencies with one of the following commands, depending on your package manager:

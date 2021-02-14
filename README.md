@@ -1,5 +1,8 @@
+# odd-occurrence
+This was a technical test I completed in early February 2020.
+
 ## Dependencies
-Only python3 and functools (which comes built-in) is required, and usually comes with most Linux distributions; if not, you can install dependencies with one of the following commands, depending on your package manager:
+Only python 3.6 is required, and usually comes with most Linux distributions; if not, you can install dependencies with one of the following commands, depending on your package manager:
 ### brew
 brew install python3.6
 ### apt
